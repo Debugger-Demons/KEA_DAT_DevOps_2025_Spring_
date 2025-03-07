@@ -11,4 +11,4 @@ RUN npm install -g nodemon
 
 COPY . .
 
-CMD npm config set prefer-offline true && nodemon app.js
+CMD npm config set prefer-offline true && nodemon --legacy-watch app.js
